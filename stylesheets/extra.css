@@ -7,3 +7,34 @@
   font-weight: 700;
   color: var(--md-default-fg-color);
 }
+
+@media screen and (min-width: 62.5em) and (max-width: 76.1875em) {
+  .md-nav--primary .md-nav__title {
+    display: none;
+  }
+  .md-sidebar--primary {
+    position: sticky;
+    top: 2.4rem;
+    display: block;
+    height: calc(100vh - 2.4rem);
+    width: 12.1rem;
+    margin-left: 0;
+    padding-top: 1.2rem;
+    transform: none;
+    background-color: transparent;
+  }
+  .md-nav--primary .md-nav {
+    display: block;
+    position: static;
+  }
+  .md-nav--primary > .md-nav__list {
+    overflow-y: auto;
+    max-height: 100%;
+  }
+  .md-content {
+    max-width: calc(100% - 12.1rem);
+  }
+  .md-header__button.md-icon[for="__drawer"] {
+    display: none;
+  }
+}
