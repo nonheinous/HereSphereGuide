@@ -5,6 +5,8 @@ site_url: https://USERNAME.github.io/heresphere-guide/
 repo_url: https://github.com/USERNAME/heresphere-guide
 repo_name: heresphere-guide
 edit_uri: edit/main/docs/
+extra_css:
+  - stylesheets/extra.css
 
 theme:
   name: material
