@@ -1,0 +1,77 @@
+site_name: HereSphere Community Guide
+site_description: Unofficial, community-maintained user guide for the HereSphere VR video player
+# Change USERNAME to your GitHub username in the two lines below
+site_url: https://USERNAME.github.io/heresphere-guide/
+repo_url: https://github.com/USERNAME/heresphere-guide
+repo_name: heresphere-guide
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.keys
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - Versions, install and updates: getting-started/versions-and-install.md
+      - Controls and key bindings: getting-started/controls.md
+  - Playing videos:
+      - Local files and folders: playing-videos/local-files.md
+      - Network sources: playing-videos/network-sources.md
+      - Formats and performance: playing-videos/formats-and-performance.md
+      - Playback features: playing-videos/playback-features.md
+      - Audio, subtitles and 2D: playing-videos/audio-subtitles-2d.md
+  - Adjusting the image:
+      - image/index.md
+      - Projection, lens and FOV: image/projection-lens-fov.md
+      - Stereo alignment and stitching: image/stereo-alignment.md
+      - Autofocus and depth: image/autofocus.md
+      - Orientation, position and scale: image/orientation-position.md
+      - Image quality and color: image/quality-color.md
+      - Passthrough and chroma key: image/passthrough.md
+      - Presets and per-video settings: image/presets.md
+  - Library and saved data:
+      - Media library and tags: library/media-library-tags.md
+      - Saved data, HSP files and backups: library/saved-data-backups.md
+  - Integrations:
+      - XBVR: integrations/xbvr.md
+      - Stash: integrations/stash.md
+      - HereSphere Web API: integrations/web-api.md
+  - Haptics: haptics.md
+  - PC version: pc-version.md
+  - Troubleshooting: troubleshooting.md
+  - Known limitations: known-limitations.md
