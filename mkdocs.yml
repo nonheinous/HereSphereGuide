@@ -9,6 +9,8 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   features:
+    - navigation.tabs
+    - navigation.sections
     - navigation.sections
     - navigation.indexes
     - navigation.top
