@@ -1,9 +1,9 @@
-site_name: HereSphere Community Guide
+site_name: HereSphere User Guide
 site_description: Unofficial, community-maintained user guide for the HereSphere VR video player
 # Change USERNAME to your GitHub username in the two lines below
-site_url: https://USERNAME.github.io/heresphere-guide/
-repo_url: https://github.com/USERNAME/heresphere-guide
-repo_name: heresphere-guide
+site_url: https://nonheinous.github.io/HereSphereGuide/
+repo_url: https://github.com/nonheinous/heresphereguide
+repo_name: heresphereguide
 edit_uri: edit/main/docs/
 extra_css:
   - stylesheets/extra.css
