@@ -4,7 +4,7 @@ An unofficial, community-maintained user guide for the [HereSphere](https://here
 
 HereSphere has little formal documentation. Most know-how lives in the developer's answers in the HereSphere Discord `#instructions` channel. This guide collects those answers into searchable pages.
 
-**Read the guide:** https://USERNAME.github.io/heresphere-guide/
+**Read the guide:** https://nonheinous.github.io/HereSphereGuide/
 
 ## How the site works
 
